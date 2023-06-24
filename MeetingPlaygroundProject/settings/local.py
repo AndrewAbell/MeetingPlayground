@@ -1,4 +1,5 @@
 from .base import *
+import os
 
 DEBUG = True
 
@@ -8,9 +9,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'MeetingPlaygroundDB',
-        'USER': 'Andrew',
+        'USER': os.getenv('USER'),
         'HOST': 'localhost',
-        'PASSWORD': "ArsenA@33!",
+        'PASSWORD': os.getenv('PASSWORD'),
         'PORT': '5432'
         }
 }
