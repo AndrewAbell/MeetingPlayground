@@ -5,6 +5,10 @@ DEBUG = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+subdir_path = os.path.join(BASE_DIR, 'MeetingPlaygroundApp')
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
