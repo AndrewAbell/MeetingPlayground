@@ -16,3 +16,7 @@ def pricing(request):
 def resources(request):
     context = {}
     return render(request, 'MeetingPlaygroundApp/resources.html', context)
+
+def signup(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/signup.html', context)
