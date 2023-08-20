@@ -22,11 +22,10 @@
             </div>
             <div class="hidden xl:block xl:w-1/3">
               <ul class="flex justify-center">
-                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'resources' %}">Games</a></li>
+                <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'Game' %}">Games</a></li> 
                 <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'newsletter' %}" >Newsletter</a></li>
                 <li class="mr-12"><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'resources' %}" >Resources</a></li>
-                <li><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'pricing' %}">Pricing</a></li>
-              </ul>
+                <li><a class="text-coolGray-400 hover:text-coolGray-50 font-medium" href="{% url 'pricing' %}">Pricing</a></li> 
             </div>
             <div class="hidden xl:block xl:w-1/3">
               <div class="flex items-center justify-end">
@@ -85,6 +84,8 @@
                   </svg>
                 </div>
                 <h3 class="mb-4 text-xl md:text-2xl leading-tight font-bold">Game 1</h3>
+                {% comment %} <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="spFrame64e25dca161b7" src="https://www.sporcle.com/framed/?v=9&pm&gid=279aafc45365&fid=64e25dca161b7" style="width:100%;"></iframe>
+                <script type="text/javascript" src="https://www.sporcle.com/embed/embed.js?v=64e25dca161b7"></script> {% endcomment %}
                 <p class="text-coolGray-500 font-medium">Stay connected with your team and make quick decisions wherever you are.</p>
               </div>
             </div>

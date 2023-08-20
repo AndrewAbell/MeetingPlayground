@@ -20,3 +20,7 @@ def resources(request):
 def signup(request):
     context = {}
     return render(request, 'MeetingPlaygroundApp/signup.html', context)
+
+def Game(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/Game.html', context)
