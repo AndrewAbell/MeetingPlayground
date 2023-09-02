@@ -10,5 +10,6 @@ urlpatterns = [
     path('resources/', views.resources ,name='resources'),
     path('signup/', views.signup ,name='signup'),
     path('Game/', views.Game ,name='Game'),
+    path('GameTwo/', views.GameTwo ,name='GameTwo'),
 ]
 

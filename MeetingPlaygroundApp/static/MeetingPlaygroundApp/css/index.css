@@ -1,3 +1,7 @@
 #newsletter-popup{
     display: none;
 }
+
+#Game1, #Game2{
+    cursor: pointer;
+}

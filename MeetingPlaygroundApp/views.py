@@ -24,3 +24,7 @@ def signup(request):
 def Game(request):
     context = {}
     return render(request, 'MeetingPlaygroundApp/Game.html', context)
+
+def GameTwo(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/GameTwo.html', context)
