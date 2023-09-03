@@ -28,3 +28,19 @@ def Game(request):
 def GameTwo(request):
     context = {}
     return render(request, 'MeetingPlaygroundApp/GameTwo.html', context)
+
+def GameThree(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/GameThree.html', context)
+
+def GameFour(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/GameFour.html', context)
+
+def GameFive(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/GameFive.html', context)
+
+def GameSix(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/GameSix.html', context)

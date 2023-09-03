@@ -11,5 +11,9 @@ urlpatterns = [
     path('signup/', views.signup ,name='signup'),
     path('Game/', views.Game ,name='Game'),
     path('GameTwo/', views.GameTwo ,name='GameTwo'),
+    path('GameThree/', views.GameThree ,name='GameThree'),
+    path('GameFour/', views.GameFour ,name='GameFour'),
+    path('GameFive/', views.GameFive ,name='GameFive'),
+    path('GameSix/', views.GameSix ,name='GameSix'),
 ]
 
