@@ -44,3 +44,7 @@ def GameFive(request):
 def GameSix(request):
     context = {}
     return render(request, 'MeetingPlaygroundApp/GameSix.html', context)
+
+def content(request):
+    context = {}
+    return render(request, 'MeetingPlaygroundApp/content.html', context)

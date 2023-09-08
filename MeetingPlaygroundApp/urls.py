@@ -15,5 +15,6 @@ urlpatterns = [
     path('GameFour/', views.GameFour ,name='GameFour'),
     path('GameFive/', views.GameFive ,name='GameFive'),
     path('GameSix/', views.GameSix ,name='GameSix'),
+    path('content/', views.content, name='content'),
 ]
 
